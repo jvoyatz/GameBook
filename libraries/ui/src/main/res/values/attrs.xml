@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- same as colorPrimaryVariant in light theme and as colorSuface in dark theme -->
+  <!--  <attr name="colorPrimarySurfaceVariant" format="color" />
+    <attr name="colorFavorite" format="color" />
+    <attr name="colorSuccess" format="color" />
+
+    <declare-styleable name="AccountView">
+        <attr name="showFavorite" format="boolean"/>
+
+        <attr name="animationType" format="enum">
+            <enum name="NONE" value="0"/>
+            <enum name="TOP" value="1"/>
+            <enum name="BOTTOM" value="2"/>
+        </attr>
+    </declare-styleable>-->
+</resources>

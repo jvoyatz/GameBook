@@ -1,6 +1,7 @@
 package gr.jvoyatz.gamebook
 
 import com.android.build.api.dsl.CommonExtension
+import org.gradle.api.JavaVersion
 import org.gradle.api.Project
 
 /**
@@ -31,6 +32,11 @@ internal fun Project.configureAndroidCommon(
         buildFeatures {
             buildConfig = false
             viewBinding = true
+        }
+
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_11
+            targetCompatibility = JavaVersion.VERSION_11
         }
 
         packagingOptions {

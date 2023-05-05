@@ -20,7 +20,6 @@ class AndroidLibConventionPlugin : Plugin<Project> {
                 apply("org.jetbrains.kotlin.kapt")
             }
 
-
             extensions.configure<LibraryExtension> {
                 configureAndroidCommon(this)
                 configureAndroidLib(this)

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GameBook</string>
+    <string name="ok">OK</string>
+    <string name="an_error_occurred">An error occurred.</string>
+    <string name="loading">Loading</string>
+    <string name="error">An error occurred while fetching data, please check your internet connection and retry.</string>
+    <string name="no_results">No data found, try again later.</string>
+    <string name="retry">Retry</string>
+    <string name="not_provided">Not provided</string>
+    <string name="contentDescription">contentDescription</string>
+    <string name="not_provided_description">Not provided description</string>
+
+</resources>

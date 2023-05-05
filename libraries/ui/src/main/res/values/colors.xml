@@ -5,12 +5,11 @@
     <color name="background">@color/white</color>
 
 
-    <color name="dark_blue_50">#f1f8ff</color>
-    <color name="dark_blue_100">#e9f0ff</color>
-    <color name="dark_blue_200">#dfe5fe</color>
-    <color name="dark_blue_300">#ced4ed</color>
-    <color name="dark_blue_800">#30374a</color>
-    <color name="dark_blue_900">#0F1728</color>
+    <color name="dark_blue_50">#e1eefc</color>
+    <color name="dark_blue_200">#9db7c9</color>
+    <color name="dark_blue_300">#7b99af</color>
+    <color name="dark_blue_800">#1f3b4d</color>
+    <color name="dark_blue_900">#0d2736</color>
 
     <color name="veraman_100">#b6dfe0</color>
     <color name="veraman_200">#87cbcb</color>
@@ -36,5 +35,4 @@
 
     <color name="complementary">#F5F7F8</color>
     <color name="complementary2">#e1fcfc</color>
-    <color name="complementary3">#fbf3ff</color>
 </resources>

@@ -12,10 +12,10 @@ internal fun Project.configureAndroidLib(
 ) {
     extension.apply {
         defaultConfig {
+            @Suppress("DEPRECATION")
             targetSdk = extensions.getVersionCatalogExtension().getTargetSdk()
             consumerProguardFiles("consumer-rules.pro")
         }
-
 
         buildTypes {
             release {

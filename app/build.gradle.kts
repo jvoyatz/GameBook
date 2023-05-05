@@ -6,17 +6,18 @@ plugins {
 
 android {
 
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
+}
 
-    kotlinOptions{
-        jvmTarget = JavaVersion.VERSION_17.toString()
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
     }
+}
+kapt {
+    correctErrorTypes = true
 }
 
 dependencies {
-    //implementation(project(":libraries:ui"))
+    implementation(project(":libraries:ui"))
     implementation(libs.bundles.androidx.ui.common)
 }

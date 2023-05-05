@@ -5,8 +5,11 @@ plugins {
 group = "${libs.versions.packageName}.buildlogic"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 dependencies {
@@ -17,7 +20,7 @@ dependencies {
 
 gradlePlugin {
 
-    //here we register the custom plugins that will be used throught out main project's modules
+    //here we register the custom plugins that will be used throughout main project's modules
     // the main purpose is to move certain dependencies declared in a module in a specific plugin either a library module
     // or a feature module
     //this gives us an extra capability of having single source of truth for the dependencies needed when creating a new module

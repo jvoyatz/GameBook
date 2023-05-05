@@ -11,7 +11,7 @@ androidTestInstrumentation                      = "androidx.test.runner.AndroidJ
 packageName                                     = "gr.jvoyatz.gamebook"
 
 #plugins
-agp                                             = "7.4.2"
+agp                                             = "7.4.1"
 org-jetbrains-kotlin-android                    = "1.8.0"
 org-jetbrains-kotlin-jvm                        = "1.8.0"
 kotlin                                          = "1.8.0"
@@ -23,7 +23,7 @@ appcompat                                       = "1.6.1"
 material                                        = "1.8.0"
 constraintlayout                                = "2.1.4"
 lifecycle                                       = "2.6.1"
-hilt                                            = "2.44.2"
+hilt                                            = "2.44"
 navigation                                      = "2.5.3"
 fragment                                        = "1.5.7"
 swipeRefresh                                    = "1.1.0"
@@ -37,7 +37,7 @@ moshi                                           = "1.14.0"
 junit                                           = "4.13.2"
 androidx-test-ext-junit                         = "1.1.5"
 espresso-core                                   = "3.5.1"
-turbine                                         = "0.12.1"
+turbine                                         = "0.9.0"
 truth                                           = "1.1.3"
 mockk                                           = "1.13.4"
 
@@ -70,7 +70,7 @@ material                                        = { group = "com.google.android.
 constraintlayout                                = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 cardview                                        = { module = "androidx.cardview:cardview", version = "1.0.0"}
 recyclerview                                    = { module = "androidx.recyclerview:recyclerview", version = "1.3.0"}
-viewbinding                                     = { module = "androidx.databinding:viewbinding", version = "8.0.0" }
+viewbinding                                     = { module = "androidx.databinding:viewbinding", version = "7.4.2" }
 navigation-fragment                             = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation"}
 navigation-ui                                   = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
 lifecycle-viewmodel                             = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
