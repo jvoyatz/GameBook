@@ -28,8 +28,11 @@
             <option value="$PROJECT_DIR$/build-logic/convention" />
             <option value="$PROJECT_DIR$/libraries" />
             <option value="$PROJECT_DIR$/libraries/mvvmi" />
+            <option value="$PROJECT_DIR$/libraries/network" />
             <option value="$PROJECT_DIR$/libraries/shared" />
+            <option value="$PROJECT_DIR$/libraries/testing" />
             <option value="$PROJECT_DIR$/libraries/ui" />
+            <option value="$PROJECT_DIR$/libraries/utils-android" />
           </set>
         </option>
       </GradleProjectSettings>

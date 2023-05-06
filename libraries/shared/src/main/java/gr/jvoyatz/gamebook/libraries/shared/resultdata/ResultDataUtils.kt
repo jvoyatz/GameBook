@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package gr.jvoyatz.assignment.core.common.resultdata
+package gr.jvoyatz.gamebook.libraries.shared.resultdata
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.TimeoutCancellationException
@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.map
 /**
  * Wrap any non nullable type to a [ResultData.Success] instance
  */
-fun <T> T.toResultDataSuccess():ResultData<T> = ResultData.success(this)
+fun <T> T.toResultDataSuccess(): ResultData<T> = ResultData.success(this)
 
 /**
  * Better management of exceptions when using coroutines.

@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package gr.jvoyatz.assignment.core.common.resultdata
+package gr.jvoyatz.gamebook.libraries.shared.resultdata
 
 
 /**

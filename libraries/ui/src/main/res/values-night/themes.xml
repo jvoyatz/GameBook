@@ -25,7 +25,7 @@
         -->
     </style>
 
-    <style name="SplashTheme.Wallet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="SplashTheme.GameBook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:statusBarColor">?attr/colorSurface</item>
         <item name="android:logo">@mipmap/ic_launcher</item>
         <item name="android:windowFullscreen">false</item>

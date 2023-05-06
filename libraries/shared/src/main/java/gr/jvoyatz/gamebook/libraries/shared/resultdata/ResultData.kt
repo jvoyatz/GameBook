@@ -1,4 +1,4 @@
-package gr.jvoyatz.assignment.core.common.resultdata
+package gr.jvoyatz.gamebook.libraries.shared.resultdata
 
 /**
  * Sealed interface with two possible states

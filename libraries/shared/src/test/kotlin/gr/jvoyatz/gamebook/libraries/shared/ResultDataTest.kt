@@ -1,15 +1,15 @@
 package gr.jvoyatz.gamebook.libraries.shared
 
 import com.google.common.truth.Truth
-import gr.jvoyatz.assignment.core.common.resultdata.ResultData
-import gr.jvoyatz.assignment.core.common.resultdata.asError
-import gr.jvoyatz.assignment.core.common.resultdata.asResult
-import gr.jvoyatz.assignment.core.common.resultdata.asSuccess
-import gr.jvoyatz.assignment.core.common.resultdata.isError
-import gr.jvoyatz.assignment.core.common.resultdata.isSuccess
-import gr.jvoyatz.assignment.core.common.resultdata.onError
-import gr.jvoyatz.assignment.core.common.resultdata.onSuccess
-import gr.jvoyatz.assignment.core.common.resultdata.resultOf
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.ResultData
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.asError
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.asResult
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.asSuccess
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.isError
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.isSuccess
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.onError
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.onSuccess
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.resultOf
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow

@@ -1,0 +1,1668 @@
+[
+  {
+    "betViews": [
+      {
+        "competitionContextCaption": "Ποδόσφαιρο",
+        "competitions": [
+          {
+            "betContextId": 321324,
+            "caption": "Φιλικά",
+            "regionCaption": "Κόσμος",
+            "events": [
+              {
+                "betContextId": 12617395,
+                "path": "football/south-korea-vs-georgia",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Νότια Κορέα",
+                  "competitor1ImageId": 32438,
+                  "competitor2": "Γεωργία",
+                  "competitor2ImageId": 9102
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 0,
+                  "homeCorners": 0,
+                  "awayCorners": 0,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": 19238804,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:07:01.9966003",
+                  "elapsedSeconds": 421.99660029999995,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "Α' Ημ",
+                  "phaseCaptionLong": "1o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 5
+                },
+                "markets": [
+                  {
+                    "marketId": 224121940,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 902310508,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 1.96,
+                        "oddsText": "1.96",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310509,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 3.2,
+                        "oddsText": "3.20",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310510,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 4,
+                        "oddsText": "4.00",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224121984,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_0_5",
+                    "betItems": [
+                      {
+                        "id": 902310667,
+                        "code": "O",
+                        "caption": "Over 0,5",
+                        "instanceCaption": null,
+                        "price": 1.08,
+                        "oddsText": "1.08",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310668,
+                        "code": "U",
+                        "caption": "Under 0,5",
+                        "instanceCaption": null,
+                        "price": 6.8,
+                        "oddsText": "6.80",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224121985,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+                    "betItems": [
+                      {
+                        "id": 902310669,
+                        "code": "O",
+                        "caption": "Over 1,5",
+                        "instanceCaption": null,
+                        "price": 1.47,
+                        "oddsText": "1.47",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310670,
+                        "code": "U",
+                        "caption": "Under 1,5",
+                        "instanceCaption": null,
+                        "price": 2.65,
+                        "oddsText": "2.65",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224121986,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 902310671,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 2.4,
+                        "oddsText": "2.40",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310672,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 1.55,
+                        "oddsText": "1.55",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224121987,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 902310673,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 4.55,
+                        "oddsText": "4.55",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310674,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 1.19,
+                        "oddsText": "1.19",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224121988,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 902310675,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 8.5,
+                        "oddsText": "8.50",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902310676,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.06,
+                        "oddsText": "1.06",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              }
+            ]
+          },
+          {
+            "betContextId": 280084,
+            "caption": "Κύπελλο",
+            "regionCaption": "Βουλγαρία",
+            "events": [
+              {
+                "betContextId": 12710610,
+                "path": "football/zagorets-nova-zagora-vs-pirin-blagoevgrad",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Ζαγκόρετς Νόβα Ζαγκόρα",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Πίριν Μπλαγκόεβγκραντ",
+                  "competitor2ImageId": 28078
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 0,
+                  "homeCorners": 3,
+                  "awayCorners": 2,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": 19311792,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:37:31.2506003",
+                  "elapsedSeconds": 2251.2506003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "Α' Ημ",
+                  "phaseCaptionLong": "1o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224806748,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 904955388,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 3.65,
+                        "oddsText": "3.65",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955389,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 2.85,
+                        "oddsText": "2.85",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955390,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 2.2,
+                        "oddsText": "2.20",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224806756,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_0_5",
+                    "betItems": [
+                      {
+                        "id": 904955439,
+                        "code": "O",
+                        "caption": "Over 0,5",
+                        "instanceCaption": null,
+                        "price": 1.14,
+                        "oddsText": "1.14",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955440,
+                        "code": "U",
+                        "caption": "Under 0,5",
+                        "instanceCaption": null,
+                        "price": 5.2,
+                        "oddsText": "5.20",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224806757,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+                    "betItems": [
+                      {
+                        "id": 904955441,
+                        "code": "O",
+                        "caption": "Over 1,5",
+                        "instanceCaption": null,
+                        "price": 1.7,
+                        "oddsText": "1.70",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955442,
+                        "code": "U",
+                        "caption": "Under 1,5",
+                        "instanceCaption": null,
+                        "price": 2.1,
+                        "oddsText": "2.10",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224806749,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 904955391,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 3.15,
+                        "oddsText": "3.15",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955392,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 1.35,
+                        "oddsText": "1.35",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224806758,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 904955443,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 6.6,
+                        "oddsText": "6.60",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904955444,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 1.1,
+                        "oddsText": "1.10",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12741501,
+                "path": "football/fk-drenovets-vs-litex-lovech",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Ντρένοβετς",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Λίτεξ Λόβετς",
+                  "competitor2ImageId": 7099
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 1,
+                  "homeCorners": 1,
+                  "awayCorners": 0,
+                  "homeYellowCards": 1,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": 19346286,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:34:47.4406003",
+                  "elapsedSeconds": 2087.4406003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "Α' Ημ",
+                  "phaseCaptionLong": "1o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224807859,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 904959719,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 19,
+                        "oddsText": "19.00",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959720,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 8.8,
+                        "oddsText": "8.80",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959721,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 1.09,
+                        "oddsText": "1.09",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807860,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 904959722,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 1.22,
+                        "oddsText": "1.22",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959723,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 4.15,
+                        "oddsText": "4.15",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807869,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 904959774,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 1.67,
+                        "oddsText": "1.67",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959775,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 2.15,
+                        "oddsText": "2.15",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807870,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 904959776,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 2.7,
+                        "oddsText": "2.70",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959777,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.45,
+                        "oddsText": "1.45",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12741500,
+                "path": "football/partizan-chevren-briag-vs-hebar-pazardzhik",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Παρτιζάν Τσεβρέν Μπριάγκ",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Χεμπάρ Παζάρντζικ",
+                  "competitor2ImageId": 0
+                },
+                "liveData": {
+                  "homeGoals": 1,
+                  "awayGoals": 1,
+                  "homeCorners": 0,
+                  "awayCorners": 5,
+                  "homeYellowCards": 1,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": 19346282,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:38:56.0666003",
+                  "elapsedSeconds": 2336.0666003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "Α' Ημ",
+                  "phaseCaptionLong": "1o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224807921,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 904959946,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 4.45,
+                        "oddsText": "4.45",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959947,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 3.3,
+                        "oddsText": "3.30",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959948,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 1.82,
+                        "oddsText": "1.82",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807922,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 904959949,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 1.09,
+                        "oddsText": "1.09",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904959950,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 6.9,
+                        "oddsText": "6.90",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807931,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 904960001,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 1.47,
+                        "oddsText": "1.47",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904960002,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 2.65,
+                        "oddsText": "2.65",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224807932,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 904960003,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 2.4,
+                        "oddsText": "2.40",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904960004,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.56,
+                        "oddsText": "1.56",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224809076,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_5_5",
+                    "betItems": [
+                      {
+                        "id": 904964343,
+                        "code": "O",
+                        "caption": "Over 5,5",
+                        "instanceCaption": null,
+                        "price": 4.55,
+                        "oddsText": "4.55",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904964344,
+                        "code": "U",
+                        "caption": "Under 5,5",
+                        "instanceCaption": null,
+                        "price": 1.19,
+                        "oddsText": "1.19",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224818435,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_6_5",
+                    "betItems": [
+                      {
+                        "id": 905001256,
+                        "code": "O",
+                        "caption": "Over 6,5",
+                        "instanceCaption": null,
+                        "price": 8.5,
+                        "oddsText": "8.50",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905001257,
+                        "code": "U",
+                        "caption": "Under 6,5",
+                        "instanceCaption": null,
+                        "price": 1.06,
+                        "oddsText": "1.06",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              }
+            ]
+          },
+          {
+            "betContextId": 7573845,
+            "caption": "U23 League",
+            "regionCaption": "Ιράν",
+            "events": [
+              {
+                "betContextId": 12716979,
+                "path": "niroye-zamini-u23-vs-olimpic-andisheh-u23",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Νιρόγε Ζαμίνι U23",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Ολίμπικ  Άντισεχ U23",
+                  "competitor2ImageId": 0
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 0,
+                  "homeCorners": 3,
+                  "awayCorners": 0,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 1,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": null,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:48:42.4806003",
+                  "elapsedSeconds": 2922.4806003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_SECOND_HALF",
+                  "phaseCaption": "Β' Ημ",
+                  "phaseCaptionLong": "2o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224801975,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 904936124,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 1.43,
+                        "oddsText": "1.43",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904936125,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 3.9,
+                        "oddsText": "3.90",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904936126,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 7.6,
+                        "oddsText": "7.60",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224801983,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+                    "betItems": [
+                      {
+                        "id": 904936175,
+                        "code": "O",
+                        "caption": "Over 1,5",
+                        "instanceCaption": null,
+                        "price": 1.54,
+                        "oddsText": "1.54",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904936176,
+                        "code": "U",
+                        "caption": "Under 1,5",
+                        "instanceCaption": null,
+                        "price": 2.45,
+                        "oddsText": "2.45",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224801976,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 904936127,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 2.6,
+                        "oddsText": "2.60",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904936128,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 1.48,
+                        "oddsText": "1.48",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12716980,
+                "path": "saipa-u23-vs-paykan-u23",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Σάιπα U23",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Πέικαν U23",
+                  "competitor2ImageId": 0
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 0,
+                  "homeCorners": 1,
+                  "awayCorners": 3,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": null,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "-10675199.02:48:05.4775808",
+                  "elapsedSeconds": -922337203685.4775,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": "00:05:07.0793997",
+                  "timeToNextPhaseSeconds": 307.0793997,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "45:00",
+                  "phaseCaptionLong": "Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": false,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224802870,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 904939421,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 3.85,
+                        "oddsText": "3.85",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904939422,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 2.55,
+                        "oddsText": "2.55",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904939423,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 2.2,
+                        "oddsText": "2.20",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224813427,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_0_5",
+                    "betItems": [
+                      {
+                        "id": 904982176,
+                        "code": "O",
+                        "caption": "Over 0,5",
+                        "instanceCaption": null,
+                        "price": 1.22,
+                        "oddsText": "1.22",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904982177,
+                        "code": "U",
+                        "caption": "Under 0,5",
+                        "instanceCaption": null,
+                        "price": 3.95,
+                        "oddsText": "3.95",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224802878,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+                    "betItems": [
+                      {
+                        "id": 904939472,
+                        "code": "O",
+                        "caption": "Over 1,5",
+                        "instanceCaption": null,
+                        "price": 2.1,
+                        "oddsText": "2.10",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904939473,
+                        "code": "U",
+                        "caption": "Under 1,5",
+                        "instanceCaption": null,
+                        "price": 1.71,
+                        "oddsText": "1.71",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224802871,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 904939424,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 4.35,
+                        "oddsText": "4.35",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 904939425,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 1.21,
+                        "oddsText": "1.21",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12717251,
+                "path": "abipooshan-omid-koosha-u23-vs-kaspian-u23",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Αμπιπουσχάν U23",
+                  "competitor1ImageId": 0,
+                  "competitor2": "Κασπιάν U23",
+                  "competitor2ImageId": 0
+                },
+                "liveData": {
+                  "homeGoals": 1,
+                  "awayGoals": 0,
+                  "homeCorners": 4,
+                  "awayCorners": 0,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 1,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 1,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": null,
+                  "sportradarMatchId": null,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "00:38:40.3566003",
+                  "elapsedSeconds": 2320.3566003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "Α' Ημ",
+                  "phaseCaptionLong": "1o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224818706,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 905002243,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 1.14,
+                        "oddsText": "1.14",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905002244,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 7.6,
+                        "oddsText": "7.60",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905002245,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 14.75,
+                        "oddsText": "14.75",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224818707,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+                    "betItems": [
+                      {
+                        "id": 905002246,
+                        "code": "O",
+                        "caption": "Over 2,5",
+                        "instanceCaption": null,
+                        "price": 1.21,
+                        "oddsText": "1.21",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905002247,
+                        "code": "U",
+                        "caption": "Under 2,5",
+                        "instanceCaption": null,
+                        "price": 4.25,
+                        "oddsText": "4.25",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224818715,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 905002296,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 1.64,
+                        "oddsText": "1.64",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905002297,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 2.2,
+                        "oddsText": "2.20",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224820283,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 905009022,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 2.6,
+                        "oddsText": "2.60",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 905009023,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.47,
+                        "oddsText": "1.47",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              }
+            ]
+          },
+          {
+            "betContextId": 46212,
+            "caption": "Παγκ. Κύπελλο - Προκριματικά Aσίας",
+            "regionCaption": "Κόσμος",
+            "events": [
+              {
+                "betContextId": 12717400,
+                "path": "football/singapore-vs-yemen",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Σιγκαπούρη",
+                  "competitor1ImageId": 11319,
+                  "competitor2": "Υεμένη",
+                  "competitor2ImageId": 11374
+                },
+                "liveData": {
+                  "homeGoals": 2,
+                  "awayGoals": 2,
+                  "homeCorners": 3,
+                  "awayCorners": 0,
+                  "homeYellowCards": 1,
+                  "awayYellowCards": 2,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": false,
+                  "liveStreamingCountries": "GR",
+                  "sportradarMatchId": 18808752,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "01:32:36.9166003",
+                  "elapsedSeconds": 5556.9166003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_SECOND_HALF",
+                  "phaseCaption": "Β' Ημ",
+                  "phaseCaptionLong": "2o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": false,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224118509,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 902297488,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 11.75,
+                        "oddsText": "11.75",
+                        "isAvailable": false
+                      },
+                      {
+                        "id": 902297489,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 1.08,
+                        "oddsText": "1.08",
+                        "isAvailable": false
+                      },
+                      {
+                        "id": 902297490,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 17.75,
+                        "oddsText": "17.75",
+                        "isAvailable": false
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224118556,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 902297652,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 7,
+                        "oddsText": "7.00",
+                        "isAvailable": false
+                      },
+                      {
+                        "id": 902297653,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.09,
+                        "oddsText": "1.09",
+                        "isAvailable": false
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12717412,
+                "path": "football/thailand-vs-vietnam",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Ταϊλάνδη",
+                  "competitor1ImageId": 20840,
+                  "competitor2": "Βιετνάμ",
+                  "competitor2ImageId": 14780
+                },
+                "liveData": {
+                  "homeGoals": 0,
+                  "awayGoals": 0,
+                  "homeCorners": 3,
+                  "awayCorners": 2,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": "GR",
+                  "sportradarMatchId": 18810922,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "01:19:08.0006003",
+                  "elapsedSeconds": 4748.0006003,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": null,
+                  "timeToNextPhaseSeconds": null,
+                  "phaseSysname": "SOCCER_MATCH_SECOND_HALF",
+                  "phaseCaption": "Β' Ημ",
+                  "phaseCaptionLong": "2o Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": true,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224119733,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 902302108,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 3.8,
+                        "oddsText": "3.80",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302109,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 1.54,
+                        "oddsText": "1.54",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302110,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 6.4,
+                        "oddsText": "6.40",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119776,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_0_5",
+                    "betItems": [
+                      {
+                        "id": 902302264,
+                        "code": "O",
+                        "caption": "Over 0,5",
+                        "instanceCaption": null,
+                        "price": 2.2,
+                        "oddsText": "2.20",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302265,
+                        "code": "U",
+                        "caption": "Under 0,5",
+                        "instanceCaption": null,
+                        "price": 1.62,
+                        "oddsText": "1.62",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119777,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+                    "betItems": [
+                      {
+                        "id": 902302266,
+                        "code": "O",
+                        "caption": "Over 1,5",
+                        "instanceCaption": null,
+                        "price": 7.2,
+                        "oddsText": "7.20",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302267,
+                        "code": "U",
+                        "caption": "Under 1,5",
+                        "instanceCaption": null,
+                        "price": 1.08,
+                        "oddsText": "1.08",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              },
+              {
+                "betContextId": 12717413,
+                "path": "football/indonesia-vs-malaysia",
+                "isHighlighted": false,
+                "additionalCaptions": {
+                  "type": 1,
+                  "competitor1": "Ινδονησία",
+                  "competitor1ImageId": 39856,
+                  "competitor2": "Μαλαισία",
+                  "competitor2ImageId": 39036
+                },
+                "liveData": {
+                  "homeGoals": 2,
+                  "awayGoals": 1,
+                  "homeCorners": 3,
+                  "awayCorners": 4,
+                  "homeYellowCards": 0,
+                  "awayYellowCards": 0,
+                  "homeRedCards": 0,
+                  "awayRedCards": 0,
+                  "homePenaltyKicks": 0,
+                  "awayPenaltyKicks": 0,
+                  "supportsAchievements": true,
+                  "liveStreamingCountries": "GR",
+                  "sportradarMatchId": 18810924,
+                  "referenceTime": "2019-09-05T13:37:20Z",
+                  "referenceTimeUnix": 1567690640,
+                  "elapsed": "-10675199.02:48:05.4775808",
+                  "elapsedSeconds": -922337203685.4775,
+                  "duration": null,
+                  "durationSeconds": null,
+                  "timeToNextPhase": "00:00:00",
+                  "timeToNextPhaseSeconds": 0,
+                  "phaseSysname": "SOCCER_MATCH_FIRST_HALF",
+                  "phaseCaption": "45:00",
+                  "phaseCaptionLong": "Ημίχρονο",
+                  "isLive": true,
+                  "isInPlay": false,
+                  "isInPlayPaused": false,
+                  "isInterrupted": false,
+                  "supportsActions": true,
+                  "timeline": null,
+                  "adjustTimeMillis": 21
+                },
+                "markets": [
+                  {
+                    "marketId": 224119835,
+                    "betTypeSysname": "SOCCER_MATCH_RESULT",
+                    "betItems": [
+                      {
+                        "id": 902302493,
+                        "code": "1",
+                        "caption": "1",
+                        "instanceCaption": null,
+                        "price": 1.35,
+                        "oddsText": "1.35",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302494,
+                        "code": "X",
+                        "caption": "X",
+                        "instanceCaption": null,
+                        "price": 4.3,
+                        "oddsText": "4.30",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302495,
+                        "code": "2",
+                        "caption": "2",
+                        "instanceCaption": null,
+                        "price": 10.5,
+                        "oddsText": "10.50",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119881,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+                    "betItems": [
+                      {
+                        "id": 902302655,
+                        "code": "O",
+                        "caption": "Over 3,5",
+                        "instanceCaption": null,
+                        "price": 1.24,
+                        "oddsText": "1.24",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302656,
+                        "code": "U",
+                        "caption": "Under 3,5",
+                        "instanceCaption": null,
+                        "price": 3.95,
+                        "oddsText": "3.95",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119882,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+                    "betItems": [
+                      {
+                        "id": 902302657,
+                        "code": "O",
+                        "caption": "Over 4,5",
+                        "instanceCaption": null,
+                        "price": 2.15,
+                        "oddsText": "2.15",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302658,
+                        "code": "U",
+                        "caption": "Under 4,5",
+                        "instanceCaption": null,
+                        "price": 1.7,
+                        "oddsText": "1.70",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119883,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_5_5",
+                    "betItems": [
+                      {
+                        "id": 902302659,
+                        "code": "O",
+                        "caption": "Over 5,5",
+                        "instanceCaption": null,
+                        "price": 4.4,
+                        "oddsText": "4.40",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302660,
+                        "code": "U",
+                        "caption": "Under 5,5",
+                        "instanceCaption": null,
+                        "price": 1.2,
+                        "oddsText": "1.20",
+                        "isAvailable": true
+                      }
+                    ]
+                  },
+                  {
+                    "marketId": 224119884,
+                    "betTypeSysname": "SOCCER_UNDER_OVER_6_5",
+                    "betItems": [
+                      {
+                        "id": 902302661,
+                        "code": "O",
+                        "caption": "Over 6,5",
+                        "instanceCaption": null,
+                        "price": 9.1,
+                        "oddsText": "9.10",
+                        "isAvailable": true
+                      },
+                      {
+                        "id": 902302662,
+                        "code": "U",
+                        "caption": "Under 6,5",
+                        "instanceCaption": null,
+                        "price": 1.05,
+                        "oddsText": "1.05",
+                        "isAvailable": true
+                      }
+                    ]
+                  }
+                ],
+                "hasBetContextInfo": false
+              }
+            ]
+          }
+        ],
+        "totalCount": 19,
+        "marketCaptions": [
+          {
+            "betTypeSysname": "SOCCER_MATCH_RESULT",
+            "marketCaption": "Αποτέλεσμα Αγώνα",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_4_5",
+            "marketCaption": "Over/Under 4,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_0_5",
+            "marketCaption": "Over/Under 0,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_1_5",
+            "marketCaption": "Over/Under 1,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_2_5",
+            "marketCaption": "Over/Under 2,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_3_5",
+            "marketCaption": "Over/Under 3,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_5_5",
+            "marketCaption": "Over/Under 5,5 Γκολ",
+            "betCaptions": null
+          },
+          {
+            "betTypeSysname": "SOCCER_UNDER_OVER_6_5",
+            "marketCaption": "Over/Under 6,5 Γκολ",
+            "betCaptions": null
+          }
+        ],
+        "betViewKey": "SOCCER_MATCH",
+        "modelType": "SoccerMatch"
+      }
+    ],
+    "hasHighlights": true,
+    "totalCount": 58,
+    "caption": "Live In Play",
+    "marketViewType": "LIVE_EVENTS_IN_PLAY",
+    "marketViewKey": "M8125",
+    "modelType": "default"
+  }
+]

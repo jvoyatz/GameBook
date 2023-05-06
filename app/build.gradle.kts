@@ -20,4 +20,5 @@ kapt {
 dependencies {
     implementation(project(":libraries:ui"))
     implementation(libs.bundles.androidx.ui.common)
+    implementation(libs.logging.timber)
 }
