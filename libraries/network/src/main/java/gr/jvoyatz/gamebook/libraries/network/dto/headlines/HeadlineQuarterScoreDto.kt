@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class HeadlinesQuarterScoreDto(
+data class HeadlineQuarterScoreDto(
     @Json(name = "awayScore")
     val awayScore: Int,
     @Json(name = "caption")

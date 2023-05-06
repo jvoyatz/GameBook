@@ -1,8 +1,8 @@
 package gr.jvoyatz.gamebook.libraries.network
 
 import android.content.Context
-import gr.jvoyatz.gamebook.libraries.network.dto.games.GamesDto
-import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlinesDto
+import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
+import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlineDto
 import retrofit2.http.GET
 
 /**
@@ -10,16 +10,16 @@ import retrofit2.http.GET
  */
 interface GameBookApi {
     @GET("5d7113513300000b2177973a")
-    suspend fun fetchGames(): List<GamesDto>
+    suspend fun fetchGames(): List<GameDto>
 
     @GET("5d7113ef3300000e00779746")
-    suspend fun fetchHeadlines(): List<HeadlinesDto>
+    suspend fun fetchHeadlines(): List<HeadlineDto>
 
     @GET("5d7114b2330000112177974d")
-    suspend fun fetchUpdatedGames(): List<GamesDto>
+    suspend fun fetchUpdatedGames(): List<GameDto>
 
     @GET("5d711461330000d135779748")
-    suspend fun fetchUpdatedHeadlines(): List<HeadlinesDto>
+    suspend fun fetchUpdatedHeadlines(): List<HeadlineDto>
 
     companion object : ApiFactory<GameBookApi> {
         override fun create(context: Context): GameBookApi = ApiProvider.getApi(context)

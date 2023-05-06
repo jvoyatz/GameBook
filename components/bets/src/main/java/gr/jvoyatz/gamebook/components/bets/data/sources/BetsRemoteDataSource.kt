@@ -1,8 +1,8 @@
 package gr.jvoyatz.gamebook.components.bets.data.sources
 
 import gr.jvoyatz.gamebook.libraries.network.GameBookApi
-import gr.jvoyatz.gamebook.libraries.network.dto.games.GamesDto
-import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlinesDto
+import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
+import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlineDto
 import gr.jvoyatz.gamebook.libraries.network.response.ApiResponse
 import gr.jvoyatz.gamebook.libraries.network.response.safeRawApiCall
 
@@ -16,18 +16,18 @@ import gr.jvoyatz.gamebook.libraries.network.response.safeRawApiCall
 internal class BetsRemoteDataSource(
     private val gameBookApi: GameBookApi
 ) {
-    suspend fun getGames(): ApiResponse<List<GamesDto>, String> = safeRawApiCall {
+    suspend fun getGames(): ApiResponse<List<GameDto>, String> = safeRawApiCall {
         gameBookApi.fetchGames()
     }
 
-    suspend fun getUpdatedGames(): ApiResponse<List<GamesDto>, String> = safeRawApiCall {
+    suspend fun getUpdatedGames(): ApiResponse<List<GameDto>, String> = safeRawApiCall {
         gameBookApi.fetchUpdatedGames()
     }
 
-    suspend fun getHeadlines(): ApiResponse<List<HeadlinesDto>, String> = safeRawApiCall {
+    suspend fun getHeadlines(): ApiResponse<List<HeadlineDto>, String> = safeRawApiCall {
         gameBookApi.fetchHeadlines()
     }
-    suspend fun getUpdatedHeadlines(): ApiResponse<List<HeadlinesDto>, String> = safeRawApiCall {
+    suspend fun getUpdatedHeadlines(): ApiResponse<List<HeadlineDto>, String> = safeRawApiCall {
         gameBookApi.fetchUpdatedHeadlines()
     }
 }

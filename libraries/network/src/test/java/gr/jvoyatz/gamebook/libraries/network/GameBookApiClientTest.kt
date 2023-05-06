@@ -3,7 +3,7 @@ package gr.jvoyatz.gamebook.libraries.network
 
 import com.google.common.truth.Truth
 import com.squareup.moshi.JsonDataException
-import gr.jvoyatz.gamebook.libraries.network.dto.games.GamesDto
+import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
 import gr.jvoyatz.gamebook.libraries.testing.ApiServer
 import gr.jvoyatz.gamebook.libraries.testing.utils.TestUtils
 import gr.jvoyatz.gamebook.libraries.testing.utils.TestUtils.loadResourceFile
@@ -82,14 +82,14 @@ class GameBookApiClientTest: ApiServer<GameBookApi>() {
 
     companion object {
         var rawGames: String? = null
-        var gamesDto: List<GamesDto>? = null
+        var gamesDto: List<GameDto>? = null
             get() = field!!
 
         @JvmStatic
         @BeforeClass
         fun loadData() {
             rawGames = loadResourceFile("/games.json")
-            gamesDto = TestUtils.getData<GamesDto, GamesDto>("/games.json") { this }
+            gamesDto = TestUtils.getData<GameDto, GameDto>("/games.json") { this }
         }
     }
 

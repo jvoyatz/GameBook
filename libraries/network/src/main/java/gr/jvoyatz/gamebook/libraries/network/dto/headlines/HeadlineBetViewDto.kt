@@ -5,11 +5,11 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class HeadlinesBetView(
+data class HeadlineBetViewDto(
     @Json(name = "betContextId")
     val betContextId: Int,
     @Json(name = "betItems")
-    val betItems: List<HeadlinesBetItemDto>,
+    val betItems: List<HeadlineBetItemDto>,
     @Json(name = "betViewKey")
     val betViewKey: String,
     @Json(name = "competitor1Caption")
@@ -21,7 +21,7 @@ data class HeadlinesBetView(
     @Json(name = "imageId")
     val imageId: Int,
     @Json(name = "liveData")
-    val liveData: HeadlinesLiveDataDto,
+    val liveData: HeadlineLiveDataDto,
     @Json(name = "marketTags")
     val marketTags: List<Any>,
     @Json(name = "marketViewGroupId")

@@ -2,7 +2,7 @@ package gr.jvoyatz.gamebook.components.bets.data.sources
 
 import com.google.common.truth.Truth
 import gr.jvoyatz.gamebook.libraries.network.GameBookApi
-import gr.jvoyatz.gamebook.libraries.network.dto.games.GamesDto
+import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
 import gr.jvoyatz.gamebook.libraries.network.response.ApiResponse
 import gr.jvoyatz.gamebook.libraries.network.response.asHttpError
 import gr.jvoyatz.gamebook.libraries.network.response.asSuccess
@@ -96,14 +96,14 @@ class BestRemoteDataSourceTest : ApiServer<GameBookApi>(){
 
     companion object {
         var rawGames: String? = null
-        var gamesDto: List<GamesDto>? = null
+        var gamesDto: List<GameDto>? = null
             get() = field!!
 
         @JvmStatic
         @BeforeClass
         fun loadData() {
             rawGames = loadResourceFile("/games.json")
-            gamesDto = TestUtils.getData<GamesDto, GamesDto>("/games.json") { this }
+            gamesDto = TestUtils.getData<GameDto, GameDto>("/games.json") { this }
         }
     }
 }

@@ -1,27 +1,41 @@
-package gr.jvoyatz.gamebook.libraries.network.dto.headlines
+package gr.jvoyatz.gamebook.libraries.network.dto.games
 
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class HeadlinesLiveDataDto(
+data class LiveDataDto(
     @Json(name = "adjustTimeMillis")
     val adjustTimeMillis: Int,
-    @Json(name = "awayPoints")
-    val awayPoints: Int,
+    @Json(name = "awayCorners")
+    val awayCorners: Int,
+    @Json(name = "awayGoals")
+    val awayGoals: Int,
+    @Json(name = "awayPenaltyKicks")
+    val awayPenaltyKicks: Int,
+    @Json(name = "awayRedCards")
+    val awayRedCards: Int,
+    @Json(name = "awayYellowCards")
+    val awayYellowCards: Int,
     @Json(name = "duration")
-    val duration: String,
+    val duration: Any?,
     @Json(name = "durationSeconds")
-    val durationSeconds: Int,
+    val durationSeconds: Any?,
     @Json(name = "elapsed")
     val elapsed: String,
     @Json(name = "elapsedSeconds")
     val elapsedSeconds: Double,
-    @Json(name = "homePoints")
-    val homePoints: Int,
-    @Json(name = "homePossession")
-    val homePossession: Boolean,
+    @Json(name = "homeCorners")
+    val homeCorners: Int,
+    @Json(name = "homeGoals")
+    val homeGoals: Int,
+    @Json(name = "homePenaltyKicks")
+    val homePenaltyKicks: Int,
+    @Json(name = "homeRedCards")
+    val homeRedCards: Int,
+    @Json(name = "homeYellowCards")
+    val homeYellowCards: Int,
     @Json(name = "isInPlay")
     val isInPlay: Boolean,
     @Json(name = "isInPlayPaused")
@@ -31,33 +45,27 @@ data class HeadlinesLiveDataDto(
     @Json(name = "isLive")
     val isLive: Boolean,
     @Json(name = "liveStreamingCountries")
-    val liveStreamingCountries: String,
+    val liveStreamingCountries: String?,
     @Json(name = "phaseCaption")
     val phaseCaption: String,
     @Json(name = "phaseCaptionLong")
     val phaseCaptionLong: String,
     @Json(name = "phaseSysname")
     val phaseSysname: String,
-    @Json(name = "quarterScores")
-    val quarterScores: List<HeadlinesQuarterScoreDto>,
     @Json(name = "referenceTime")
     val referenceTime: String,
     @Json(name = "referenceTimeUnix")
     val referenceTimeUnix: Int,
-    @Json(name = "remaining")
-    val remaining: String,
-    @Json(name = "remainingSeconds")
-    val remainingSeconds: Double,
     @Json(name = "sportradarMatchId")
-    val sportradarMatchId: Int,
+    val sportradarMatchId: Int?,
     @Json(name = "supportsAchievements")
     val supportsAchievements: Boolean,
     @Json(name = "supportsActions")
     val supportsActions: Boolean,
     @Json(name = "timeToNextPhase")
-    val timeToNextPhase: Any?,
+    val timeToNextPhase: String?,
     @Json(name = "timeToNextPhaseSeconds")
-    val timeToNextPhaseSeconds: Any?,
+    val timeToNextPhaseSeconds: Double?,
     @Json(name = "timeline")
     val timeline: Any?
 )

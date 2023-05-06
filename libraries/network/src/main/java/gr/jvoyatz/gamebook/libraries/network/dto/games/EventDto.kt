@@ -5,9 +5,9 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class GamesEvent(
+data class EventDto(
     @Json(name = "additionalCaptions")
-    val additionalCaptions: GamesAdditionalCaptionsDto,
+    val additionalCaptions: AdditionalCaptionsDto,
     @Json(name = "betContextId")
     val betContextId: Int,
     @Json(name = "hasBetContextInfo")
@@ -15,9 +15,9 @@ data class GamesEvent(
     @Json(name = "isHighlighted")
     val isHighlighted: Boolean,
     @Json(name = "liveData")
-    val liveData: GamesLiveDataDto,
+    val liveData: LiveDataDto,
     @Json(name = "markets")
-    val markets: List<GamesMarket>,
+    val markets: List<Market>,
     @Json(name = "path")
     val path: String
 )

@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class GamesMarketCaptionDto(
+data class MarketCaptionDto(
     @Json(name = "betCaptions")
     val betCaptions: Any?,
     @Json(name = "betTypeSysname")
