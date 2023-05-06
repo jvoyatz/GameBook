@@ -18,7 +18,11 @@ kapt {
 }
 
 dependencies {
-    implementation(project(":libraries:ui"))
+    //android
     implementation(libs.bundles.androidx.ui.common)
+    implementation(libs.bundles.androidx.navigation)
+    //modules
+    implementation(project(":libraries:ui"))
+    //other
     implementation(libs.logging.timber)
 }
