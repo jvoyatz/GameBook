@@ -2,7 +2,7 @@ package gr.jvoyatz.gamebook
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import gr.jvoyatz.gamebook.ui.R.style.Theme_GameBook as AppTheme
+import gr.jvoyatz.gamebook.libraries.ui.R.style.Theme_GameBook as AppTheme
 
 
 class MainActivity : AppCompatActivity() {

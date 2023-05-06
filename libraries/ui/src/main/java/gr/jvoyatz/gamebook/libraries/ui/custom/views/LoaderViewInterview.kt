@@ -1,4 +1,4 @@
-package gr.jvoyatz.gamebook.ui.custom.views
+package gr.jvoyatz.gamebook.libraries.ui.custom.views
 
 /**
  * Contract for the custom view [LoaderView]

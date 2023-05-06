@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package gr.jvoyatz.gamebook.ui.utils
+package gr.jvoyatz.gamebook.libraries.ui.utils
 
 import android.animation.Animator
 import android.animation.Animator.AnimatorListener

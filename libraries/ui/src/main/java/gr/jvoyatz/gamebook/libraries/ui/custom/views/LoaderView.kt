@@ -1,4 +1,4 @@
-package gr.jvoyatz.gamebook.ui.custom.views
+package gr.jvoyatz.gamebook.libraries.ui.custom.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import gr.jvoyatz.gamebook.ui.databinding.LoaderViewBinding
-import gr.jvoyatz.gamebook.ui.utils.fromBottomAnimation
-import gr.jvoyatz.gamebook.ui.utils.show
+import gr.jvoyatz.gamebook.libraries.ui.databinding.LoaderViewBinding
+import gr.jvoyatz.gamebook.libraries.ui.utils.fromBottomAnimation
+import gr.jvoyatz.gamebook.libraries.ui.utils.show
 
 class LoaderView(
     context: Context,

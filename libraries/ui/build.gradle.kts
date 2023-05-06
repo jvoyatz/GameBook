@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "gr.jvoyatz.gamebook.ui"
+    namespace = "gr.jvoyatz.gamebook.libraries.ui"
 }
 
 dependencies {
