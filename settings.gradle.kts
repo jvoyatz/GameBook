@@ -19,3 +19,4 @@ rootProject.name = "GameBook"
 include(":app")
 include(":libraries:ui")
 include(":libraries:mvvmi")
+include(":libraries:shared")
