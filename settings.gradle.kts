@@ -6,6 +6,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+@Suppress("UnstableApiUsage")
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -17,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "GameBook"
 include(":app")
 include(":libraries:ui")
+include(":libraries:mvvmi")
