@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class GamesCompetition(
+data class GamesCompetitionDto(
     @Json(name = "betContextId")
     val betContextId: Int,
     @Json(name = "caption")

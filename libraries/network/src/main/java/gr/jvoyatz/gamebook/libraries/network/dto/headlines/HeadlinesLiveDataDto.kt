@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class HeadlinesLiveData(
+data class HeadlinesLiveDataDto(
     @Json(name = "adjustTimeMillis")
     val adjustTimeMillis: Int,
     @Json(name = "awayPoints")
@@ -39,7 +39,7 @@ data class HeadlinesLiveData(
     @Json(name = "phaseSysname")
     val phaseSysname: String,
     @Json(name = "quarterScores")
-    val quarterScores: List<HeadlinesQuarterScore>,
+    val quarterScores: List<HeadlinesQuarterScoreDto>,
     @Json(name = "referenceTime")
     val referenceTime: String,
     @Json(name = "referenceTimeUnix")

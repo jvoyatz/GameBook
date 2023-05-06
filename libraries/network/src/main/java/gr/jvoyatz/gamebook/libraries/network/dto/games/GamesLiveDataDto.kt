@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class GamesLiveData(
+data class GamesLiveDataDto(
     @Json(name = "adjustTimeMillis")
     val adjustTimeMillis: Int,
     @Json(name = "awayCorners")

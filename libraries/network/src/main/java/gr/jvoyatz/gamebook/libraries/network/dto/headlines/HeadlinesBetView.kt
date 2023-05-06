@@ -9,7 +9,7 @@ data class HeadlinesBetView(
     @Json(name = "betContextId")
     val betContextId: Int,
     @Json(name = "betItems")
-    val betItems: List<HeadlinesBetItem>,
+    val betItems: List<HeadlinesBetItemDto>,
     @Json(name = "betViewKey")
     val betViewKey: String,
     @Json(name = "competitor1Caption")
@@ -21,7 +21,7 @@ data class HeadlinesBetView(
     @Json(name = "imageId")
     val imageId: Int,
     @Json(name = "liveData")
-    val liveData: HeadlinesLiveData,
+    val liveData: HeadlinesLiveDataDto,
     @Json(name = "marketTags")
     val marketTags: List<Any>,
     @Json(name = "marketViewGroupId")
