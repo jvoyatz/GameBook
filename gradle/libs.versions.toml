@@ -20,7 +20,7 @@ ksp                                             = "1.8.20-1.0.11"
 #android
 core-ktx                                        = "1.10.0"
 appcompat                                       = "1.6.1"
-material                                        = "1.8.0"
+material                                        = "1.9.0"
 constraintlayout                                = "2.1.4"
 lifecycle                                       = "2.6.1"
 hilt                                            = "2.44.2"
@@ -44,6 +44,8 @@ mockk                                           = "1.13.4"
 #other
 timber                                          = "5.0.1"
 coroutines                                      = "1.6.4"
+legacy-support-v4 = "1.0.0"
+lifecycle-livedata-ktx = "2.6.1"
 
 [plugins] # gradle plugins
 com-android-application                         = { id = "com.android.application", version.ref = "agp" }
@@ -114,6 +116,8 @@ truth                                           = { module = "com.google.truth:t
 turbine                                         = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 mockk                                           = { module = "io.mockk:mockk", version.ref = "mockk" }
 coroutines-test                                 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacy-support-v4" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
 
 
 [bundles] # combines multiple libraries

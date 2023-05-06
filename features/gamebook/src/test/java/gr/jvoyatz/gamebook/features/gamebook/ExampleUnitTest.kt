@@ -1,4 +1,4 @@
-package gr.jvoyatz.gamebook.features.sportsbook
+package gr.jvoyatz.gamebook.features.gamebook
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

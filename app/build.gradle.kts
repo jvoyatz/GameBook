@@ -23,6 +23,7 @@ dependencies {
     implementation(libs.bundles.androidx.navigation)
     //modules
     implementation(project(":libraries:ui"))
+    implementation(project(":features:gamebook"))
     //other
     implementation(libs.logging.timber)
 }
