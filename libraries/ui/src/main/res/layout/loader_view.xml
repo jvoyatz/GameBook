@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/noResults"
+        android:id="@+id/noData"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
@@ -72,7 +72,7 @@
         android:layout_marginTop="@dimen/margin_2x"
         android:text="@string/retry"
         app:icon="@drawable/ic_refresh"
-        app:iconSize="@dimen/icon_size"
+        app:iconSize="@dimen/icon_size_32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline"

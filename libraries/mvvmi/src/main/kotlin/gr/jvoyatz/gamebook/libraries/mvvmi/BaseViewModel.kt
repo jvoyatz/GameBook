@@ -41,17 +41,17 @@ import timber.log.Timber
 
 private const val SAVED_UI_STATE_KEY = "SAVED_UI_STATE_KEY"
 @Suppress("unused")
-abstract class BaseViewModel<State: UiState, Reduce: ReducedState, Event: UiEvent, Effect: UiEffect>(
+abstract class BaseViewModel<State: UiState, Reduce: PartialUiState, Event: UiEvent, Effect: UiEffect>(
     private val savedStateHandle: SavedStateHandle,
     initialState: State //initial value to be rendered
 ) : ViewModel() {
 
     private val eventFlow : MutableSharedFlow<Event> = MutableSharedFlow()
 
-    protected val uiState = savedStateHandle.getStateFlow(SAVED_UI_STATE_KEY, initialState)
+    val uiState = savedStateHandle.getStateFlow(SAVED_UI_STATE_KEY, initialState)
 
     private val _uiEffectChannel = Channel<Effect>(Channel.BUFFERED)
-    protected val uiEffect = _uiEffectChannel.receiveAsFlow()
+    val uiEffect = _uiEffectChannel.receiveAsFlow()
 
     init {
         subscribeUiEvents()
@@ -74,7 +74,7 @@ abstract class BaseViewModel<State: UiState, Reduce: ReducedState, Event: UiEven
         viewModelScope.launch {
             eventFlow
                 .flatMapMerge { mapEvents(it) }
-                .scan(uiState.value, ::reduceUiState)
+                .scan(uiState.value, ::reducePartialToUiState)
                 .catch { Timber.e(it) }
                 .collect {
                     savedStateHandle[SAVED_UI_STATE_KEY] = it
@@ -87,8 +87,9 @@ abstract class BaseViewModel<State: UiState, Reduce: ReducedState, Event: UiEven
      * Accepts an argument, which is an instance of [Event], representing an action requested by the user.
      * This will trigger a new emission in the [eventFlow].
      */
-    fun onNewEvent(intent: Event) = viewModelScope.launch {
-        eventFlow.emit(intent)
+    fun onNewEvent(event: Event) = viewModelScope.launch {
+        Timber.tag("BASE_VIEWMODEL").i("RECEIVED EVENT $event")
+        eventFlow.emit(event)
     }
 
     /**
@@ -107,6 +108,12 @@ abstract class BaseViewModel<State: UiState, Reduce: ReducedState, Event: UiEven
         }
     }
 
+    protected fun setState(reduce: State.() -> State) {
+//        val newState = currentState.reduce()
+//        uiState.
+    }
+
+
     /**
      * Check what exactly is this user's given event, executes the corresponding action
      * `mapped` for this event and after having (this action's) result, it generates a Partial Ui State,
@@ -118,8 +125,8 @@ abstract class BaseViewModel<State: UiState, Reduce: ReducedState, Event: UiEven
     /**
      * It updates the uiState in order to contain the new data included in the (new) Partial Ui State
      */
-    protected abstract fun reduceUiState(
-        state: State,
-        reduce: Reduce
+    protected abstract fun reducePartialToUiState(
+        uiState: State,
+        partialState: Reduce
     ): State
 }

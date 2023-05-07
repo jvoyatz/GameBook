@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/competitor1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text ="Γουεστ Μπρομ"
+        style="@style/TextAutofit.Headline6"
+        android:padding="@dimen/padding_0_125x"
+        android:layout_marginStart="@dimen/margin_1x"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/competitor2"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="0"
+        android:gravity="start"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/competitor2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/TextAutofit.Headline6"
+        android:padding="@dimen/padding_0_125x"
+        tools:text ="Μπορνμουθ"
+        app:layout_constraintStart_toStartOf="@id/competitor1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/competitor1"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="0"
+        android:gravity="start" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAutofitSubtitle1"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/margin_1x"
+        tools:text ="22:00"
+        app:layout_constraintTop_toTopOf="@id/competitor1"
+        app:layout_constraintBottom_toBottomOf="@id/competitor2"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.6"
+        android:orientation="vertical"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

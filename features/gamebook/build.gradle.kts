@@ -1,7 +1,7 @@
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     id("gamebook.android.library.plus")
-    alias(libs.plugins.org.jetbrains.kotlin.android)
+    alias(libs.plugins.org.jetbrains.kotlin.parcelize)
 }
 
 android {
@@ -11,6 +11,10 @@ android {
 dependencies {
     //android
     implementation(libs.bundles.androidx.ui.common)
-    implementation(libs.legacy.support.v4)
-    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.core.ktx)
+    //modules
+    implementation(project(":libraries:mvvmi"))
+    implementation(project(":libraries:ui"))
+    implementation(project(":components:bets"))
+    implementation(project(":libraries:shared"))
 }

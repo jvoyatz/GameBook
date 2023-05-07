@@ -73,6 +73,14 @@ inline fun <T> ResultData<T>.onAny(crossinline action: () -> Unit): ResultData<T
     return this
 }
 
+/**
+ * Executes the given block in any case of a [ResultData] instance
+ */
+suspend inline fun <T> ResultData<T>.onSuspendedAny(crossinline action: suspend () -> Unit): ResultData<T> {
+    action()
+    return this
+}
+
 inline fun <T, R> ResultData<T>.mapSuccess(mapper: T.() -> R): ResultData<R> {
     return when (this) {
         is ResultData.Success -> data.mapper().toResultDataSuccess()

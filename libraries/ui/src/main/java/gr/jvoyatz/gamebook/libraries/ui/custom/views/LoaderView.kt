@@ -33,7 +33,7 @@ class LoaderView(
         binding.apply {
             show()
             loading.fromBottomAnimation()
-            noResults.isVisible = false
+            noData.isVisible = false
             error.isVisible = false
             retry.isVisible = false
         }
@@ -45,7 +45,7 @@ class LoaderView(
             retry.fromBottomAnimation()
             error.fromBottomAnimation()
             loading.isVisible = false
-            noResults.isVisible = false
+            noData.isVisible = false
         }
     }
 
@@ -53,7 +53,7 @@ class LoaderView(
         binding.apply {
             show()
             retry.fromBottomAnimation()
-            noResults.fromBottomAnimation()
+            noData.fromBottomAnimation()
             loading.isVisible = false
             error.isVisible = false
         }

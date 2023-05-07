@@ -7,7 +7,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class HeadlineBetViewDto(
     @Json(name = "betContextId")
-    val betContextId: Int,
+    val betContextId: Long,
     @Json(name = "betItems")
     val betItems: List<HeadlineBetItemDto>,
     @Json(name = "betViewKey")

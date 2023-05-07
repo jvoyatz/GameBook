@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textview.MaterialTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/padding_0_5x"
+    android:layout_marginStart="@dimen/margin_0_125x"
+    android:layout_marginEnd="@dimen/margin_0_125x"
+    android:layout_marginTop="@dimen/margin_0_5x"
+    android:layout_marginBottom="@dimen/margin_0_25x"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="Φιλικα - Κοσμος"
+    style="@style/TextAutofitSubtitle2"
+    android:gravity="start" />

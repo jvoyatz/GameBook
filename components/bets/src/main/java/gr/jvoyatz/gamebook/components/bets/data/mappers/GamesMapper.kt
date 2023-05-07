@@ -11,9 +11,9 @@ import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
 
 internal object GamesMapper {
 
-    fun List<GameDto>.toHeadlines() = this.map { it.toHeadlines() }
+    fun List<GameDto>.toGames() = this.map { it.toGames() }
 
-    fun GameDto.toHeadlines() = Game(
+    fun GameDto.toGames() = Game(
         betViews = this.betViews.map { it.toGameBetView() }
     )
     private fun BetViewDto.toGameBetView()= BetView(
@@ -22,10 +22,12 @@ internal object GamesMapper {
     )
 
     private fun CompetitionDto.toCompetition() = Competition(
+        id = this.betContextId,
         caption = "${this.caption}${gr.jvoyatz.gamebook.libraries.shared.Constants.DASH_WITH_SPACE}${this.regionCaption}",
         events = this.events.map { it.toEvent() }
     )
     private fun EventDto.toEvent() = Event(
+        id = this.betContextId,
         competitor1 = this.additionalCaptions.competitor1,
         competitor2 = this.additionalCaptions.competitor2,
         elapsed = this.liveData.elapsed,

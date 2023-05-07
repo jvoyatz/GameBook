@@ -1,7 +1,7 @@
 package gr.jvoyatz.gamebook.components.bets.data.mappers
 
 import com.google.common.truth.Truth
-import gr.jvoyatz.gamebook.components.bets.data.mappers.GamesMapper.toHeadlines
+import gr.jvoyatz.gamebook.components.bets.data.mappers.GamesMapper.toGames
 import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
 import gr.jvoyatz.gamebook.libraries.testing.utils.TestUtils
 import gr.jvoyatz.gamebook.libraries.testing.utils.TestUtils.loadResourceFile
@@ -16,7 +16,7 @@ class MappersTest{
         val dtos = gamesDto!!
 
         //when
-        val models = dtos.toHeadlines()
+        val models = dtos.toGames()
 
         //then
         Truth.assertThat(models.size).isEqualTo(dtos.size)

@@ -1,5 +1,8 @@
 package gr.jvoyatz.gamebook.components.bets.domain.repositories
 
+import gr.jvoyatz.gamebook.components.bets.domain.models.EventsDataContainer
+import gr.jvoyatz.gamebook.libraries.shared.resultdata.ResultData
+
 
 /**
  * Contract which defines the methods used to get the current available bets data
@@ -9,10 +12,10 @@ interface BetsRepository {
     /**
      * Get the initial bets
      */
-    fun getBets()
+    suspend fun getData(): ResultData<EventsDataContainer>
 
     /**
      * Get the updated bets
      */
-    fun getUpdatedBets()
+    suspend fun getUpdatedData(): ResultData<EventsDataContainer>
 }

@@ -7,7 +7,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class Market(
     @Json(name = "betItems")
-    val betItems: List<BetItemDto>,
+    val betItems: List<BetItemDto>?,
     @Json(name = "betTypeSysname")
     val betTypeSysname: String,
     @Json(name = "marketId")

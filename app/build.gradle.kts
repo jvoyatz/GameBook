@@ -5,7 +5,10 @@ plugins {
 }
 
 android {
-
+    @Suppress("UnstableApiUsage")
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 java {

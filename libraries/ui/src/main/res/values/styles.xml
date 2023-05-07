@@ -26,6 +26,9 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">@dimen/padding_0_5x</item>
     </style>
+    <style name="TextAutofitBody1.Bold" parent="TextAutofitBody1">
+        <item name="android:textStyle">bold</item>
+    </style>
 
     <style name="TextAutofitBody2" parent="TextAppearance.MaterialComponents.Body2">
         <item name="android:textSize">@dimen/text_size_body_2</item>
@@ -54,7 +57,7 @@
         <item name="autoSizeStepGranularity">1sp</item>
         <item name="android:autoSizeStepGranularity" tools:ignore="NewApi">1sp</item>
         <item name="autoSizeMinTextSize">@dimen/text_size_caption</item>
-        <item name="autoSizeMaxTextSize">@dimen/text_size_body_2</item>
+        <item name="autoSizeMaxTextSize">@dimen/text_size_sub_1</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/text_size_body_2</item>
         <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">@dimen/text_size_sub_1</item>
         <item name="android:gravity">center</item>

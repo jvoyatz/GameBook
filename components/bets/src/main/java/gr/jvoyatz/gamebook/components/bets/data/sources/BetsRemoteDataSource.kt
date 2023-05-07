@@ -2,7 +2,9 @@ package gr.jvoyatz.gamebook.components.bets.data.sources
 
 import gr.jvoyatz.gamebook.libraries.network.GameBookApi
 import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
+import gr.jvoyatz.gamebook.libraries.network.dto.games.updated.UpdatedGamesItemDto
 import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlineDto
+import gr.jvoyatz.gamebook.libraries.network.dto.headlines.updated.UpdatedHeadlineHeadlineItemDto
 import gr.jvoyatz.gamebook.libraries.network.response.ApiResponse
 import gr.jvoyatz.gamebook.libraries.network.response.safeRawApiCall
 
@@ -20,14 +22,14 @@ internal class BetsRemoteDataSource(
         gameBookApi.fetchGames()
     }
 
-    suspend fun getUpdatedGames(): ApiResponse<List<GameDto>, String> = safeRawApiCall {
+    suspend fun getUpdatedGames(): ApiResponse<List<UpdatedGamesItemDto>, String> = safeRawApiCall {
         gameBookApi.fetchUpdatedGames()
     }
 
     suspend fun getHeadlines(): ApiResponse<List<HeadlineDto>, String> = safeRawApiCall {
         gameBookApi.fetchHeadlines()
     }
-    suspend fun getUpdatedHeadlines(): ApiResponse<List<HeadlineDto>, String> = safeRawApiCall {
+    suspend fun getUpdatedHeadlines(): ApiResponse<List<UpdatedHeadlineHeadlineItemDto>, String> = safeRawApiCall {
         gameBookApi.fetchUpdatedHeadlines()
     }
 }

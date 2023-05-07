@@ -13,6 +13,7 @@ internal object HeadlinesMapper {
     )
 
     fun HeadlineBetViewDto.toHeadlineBetView() = HeadlineBetView(
+        id = this.betContextId,
         competitor1 = this.competitor1Caption,
         competitor2 = this.competitor2Caption,
         startTime = this.startTime,

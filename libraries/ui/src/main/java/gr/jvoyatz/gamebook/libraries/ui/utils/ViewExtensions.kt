@@ -6,12 +6,14 @@ import android.animation.Animator
 import android.animation.Animator.AnimatorListener
 import android.content.Context
 import android.graphics.Color
+import android.os.Handler
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
+import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.color.MaterialColors
 
 private const val ALPHA_START = 0f
@@ -120,3 +122,32 @@ fun View.getAttrColor(block: () -> Int) = getAttrColor(block())
 
 fun Context?.showToastLong(message: String) = this?.let { Toast.makeText(this, message, Toast.LENGTH_LONG).show() }
 fun Context?.showToastShort(message: String) = this?.let { Toast.makeText(this, message, Toast.LENGTH_SHORT).show() }
+
+ fun ViewPager2.startAutoScrollAndGetRunnable(handler: Handler, interval : Long = 5000L): Runnable ?{
+    if(adapter == null) return null
+
+     val runnable: Runnable = object: Runnable {
+         override fun run() {
+             getNextItem()?.let {
+                 setCurrentItem(it, true)
+             }
+             handler.postDelayed(this, interval)
+         }
+     }
+     handler.postDelayed(runnable, interval)
+     return runnable
+}
+
+private fun ViewPager2.getNextItem(): Int? {
+    val safeAdapter = adapter ?: return null
+    val itemsCount = safeAdapter.itemCount
+    val lastItem = if (itemsCount > 0) {
+        itemsCount - 1
+    } else {
+        0
+    }
+    return when (currentItem) {
+        lastItem -> 0
+        else -> currentItem + 1
+    }
+}

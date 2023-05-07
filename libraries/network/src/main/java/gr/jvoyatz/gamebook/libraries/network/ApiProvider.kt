@@ -20,15 +20,15 @@ import java.util.concurrent.TimeUnit
  */
 internal object ApiProvider {
     private const val TIMEOUT = 5L
-    private const val TAG = "WalletApi"
+    private const val TAG = "GameBookApi"
 
     private val loggingInterceptor by lazy {
         HttpLoggingInterceptor {
             Timber.tag(TAG).d(it)
         }.apply {
             level =
-                if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
-                //HttpLoggingInterceptor.Level.NONE
+              //  if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
+                HttpLoggingInterceptor.Level.NONE
         }
     }
 

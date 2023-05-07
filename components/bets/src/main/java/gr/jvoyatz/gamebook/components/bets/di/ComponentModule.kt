@@ -5,7 +5,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import gr.jvoyatz.gamebook.components.bets.data.BetsRepositoryImpl
-import gr.jvoyatz.gamebook.components.bets.domain.interactors.GetBetsUseCase
+import gr.jvoyatz.gamebook.components.bets.domain.interactors.getEventDataUseCase
 import gr.jvoyatz.gamebook.components.bets.domain.repositories.BetsRepository
 import gr.jvoyatz.gamebook.libraries.network.GameBookApi
 
@@ -21,8 +21,8 @@ object ComponentModule {
 
     @Provides
     fun provideGetBetsUseCase(repository: BetsRepository) =
-        GetBetsUseCase { isInit ->
-            if (isInit) repository.getBets()
-            else repository.getUpdatedBets()
+        getEventDataUseCase { isInit ->
+            if (!isInit) repository.getUpdatedData()
+            else repository.getData()
         }
 }
