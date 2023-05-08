@@ -54,9 +54,9 @@
 > > **Testing** Utilities and classes needed for testing -- **Android Library**
 > 
 > > **Network** Defines the contract that gives us the capability to fetch from the remote service. -- **Android Library/Retrofit**
-> > **mvvmI** Defines an implementation of MVVM with MVI architecture approaches.
+> > **MvvmI** Defines an implementation of MVVM with MVI architecture approaches.
 > > Using UiState to wrap data that they will be shown in the screens
-> > Using Intents **(not Android Intents)** to define the actions that can take place by the user.
-> > Using Events to show a dialog/toast/snackbar as a result of an action triggered by the user and it does not affect the data displayed.
+> > Using Events **(not Android Intents)** to define the actions that can take place by the user.
+> > Using Effects to show a dialog/toast/snackbar as a result of an action triggered by the user and it does not affect the data displayed.
 > 
 > **UI** Defines custom views, extensions functions and other common method/functions/utilities that can used in a particular feature module of this app
