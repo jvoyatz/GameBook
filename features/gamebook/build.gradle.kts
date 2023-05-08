@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "gr.jvoyatz.gamebook.features.sportsbook"
+    namespace = "gr.jvoyatz.gamebook.features.gamebook"
 }
 
 dependencies {

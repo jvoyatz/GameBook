@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import gr.jvoyatz.gamebook.features.gamebook.adapter.custom.views.headline.HeadlineBetViewItemsAdapter.HeadlineBetItemViewHolder
+import gr.jvoyatz.gamebook.features.gamebook.databinding.ItemGamesHeadlineViewBinding
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.headlines.HeadlineBetViewUiModel
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.ItemGamesHeadlineViewBinding
 import gr.jvoyatz.gamebook.libraries.shared.Constants
 
 class HeadlineBetViewItemsAdapter :

@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
+import gr.jvoyatz.gamebook.features.gamebook.databinding.ItemGamesCompetitionsBinding
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.games.CompetitionUiModel
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.ItemGamesCompetitionsBinding
 
 class CompetitionEventsView(
     context: Context,

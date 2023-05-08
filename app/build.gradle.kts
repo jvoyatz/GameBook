@@ -1,3 +1,6 @@
+import gr.jvoyatz.gamebook.getPackageName
+import gr.jvoyatz.gamebook.getVersionCatalogExtension
+
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     id("gamebook.android.application")
@@ -5,6 +8,9 @@ plugins {
 }
 
 android {
+    val packageName = extensions.getVersionCatalogExtension().getPackageName()
+    namespace = packageName
+
     @Suppress("UnstableApiUsage")
     buildFeatures {
         buildConfig = true

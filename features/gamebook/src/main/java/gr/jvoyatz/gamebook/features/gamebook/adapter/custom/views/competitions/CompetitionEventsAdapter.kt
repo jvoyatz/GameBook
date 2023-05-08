@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.google.android.material.textview.MaterialTextView
+import gr.jvoyatz.gamebook.features.gamebook.databinding.ItemGamesCompetitionEventBinding
+import gr.jvoyatz.gamebook.features.gamebook.databinding.ItemGamesCompetitionsCaptionBinding
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.games.CompetitionUiModel
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.games.EventUiModel
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.ItemGamesCompetitionEventBinding
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.ItemGamesCompetitionsCaptionBinding
 import gr.jvoyatz.gamebook.libraries.shared.Constants
 import gr.jvoyatz.gamebook.libraries.shared.DateUtilities
 

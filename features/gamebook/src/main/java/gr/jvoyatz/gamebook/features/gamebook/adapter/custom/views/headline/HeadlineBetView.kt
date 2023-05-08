@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import gr.jvoyatz.gamebook.features.gamebook.databinding.ItemGamesHeadlineBinding
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.headlines.HeadlineBetViewUiModel
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.ItemGamesHeadlineBinding
 import gr.jvoyatz.gamebook.libraries.ui.utils.startAutoScrollAndGetRunnable
 
 class HeadlineBetView(

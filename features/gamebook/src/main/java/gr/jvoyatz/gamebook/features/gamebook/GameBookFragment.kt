@@ -15,8 +15,8 @@ import androidx.lifecycle.repeatOnLifecycle
 import dagger.hilt.android.AndroidEntryPoint
 import gr.jvoyatz.gamebook.features.gamebook.GameBookContract.GameBookUiState
 import gr.jvoyatz.gamebook.features.gamebook.adapter.GameBookUiAdapter
+import gr.jvoyatz.gamebook.features.gamebook.databinding.FragmentGamesBookBinding
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.GameBookUiModel
-import gr.jvoyatz.gamebook.features.sportsbook.databinding.FragmentGamesBookBinding
 import gr.jvoyatz.gamebook.libraries.ui.utils.hide
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
