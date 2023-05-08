@@ -13,8 +13,8 @@ android {
     namespace = "gr.jvoyatz.gamebook.libraries.network"
 
     defaultConfig {
-        buildConfigField("String", "HOST", prop.getProperty("HOST"))
-        buildConfigField("String", "TOKEN", prop.getProperty("TOKEN"))
+        buildConfigField("String", "HOST", prop.getProperty("HOST") ?: "http://www.mocky.io/v2/")
+        buildConfigField("String", "TOKEN", prop.getProperty("TOKEN") ?: "\"\"" )
     }
     @Suppress("UnstableApiUsage")
     buildFeatures {

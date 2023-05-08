@@ -3,7 +3,6 @@ package gr.jvoyatz.gamebook.features.gamebook.adapter
 import android.os.Handler
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import gr.jvoyatz.gamebook.features.gamebook.adapter.custom.views.competitions.CompetitionEventsView
@@ -13,11 +12,9 @@ import gr.jvoyatz.gamebook.features.gamebook.models.ui.GameBookUiModel
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.ID_COMPETITION
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.ID_HEADER
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.headlines.HeadlineBetViewUiModel
-import timber.log.Timber
 
 class GameBookUiAdapter(
     private val handler: Handler,
-    private val viewLifeCycleOwner: LifecycleOwner,
 ) : ListAdapter<GameBookUiModel, RecyclerView.ViewHolder>(GameBookUiDiffCallback()) {
 
     override fun getItemViewType(position: Int): Int {
@@ -69,7 +66,6 @@ class GameBookUiAdapter(
 
             val index = currentList.indexOf(competition)
             if (index >= 0) {
-                Timber.d("handleOnExpand() called with: index $index")
                 val model = currentList[index]
                 if (model.id == ID_COMPETITION) {
                     with((model as GameBookUiModel.Competition)) {

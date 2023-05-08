@@ -18,6 +18,8 @@ import java.util.concurrent.TimeUnit
 /**
  * Contains the base configuration used for Retrofit ApiServices
  */
+var TOKEN = BuildConfig.TOKEN
+
 internal object ApiProvider {
     private const val TIMEOUT = 5L
     private const val TAG = "GameBookApi"
@@ -27,20 +29,20 @@ internal object ApiProvider {
             Timber.tag(TAG).d(it)
         }.apply {
             level =
-              //  if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
-                HttpLoggingInterceptor.Level.NONE
+                if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.HEADERS else HttpLoggingInterceptor.Level.NONE
+            //HttpLoggingInterceptor.Level.NONE
         }
     }
 
     private val moshi by lazy {
-        with(Moshi.Builder()){
+        with(Moshi.Builder()) {
             addLast(KotlinJsonAdapterFactory())
         }.run {
             build()
         }
     }
 
-    private fun getOkHttpClient(context: Context): OkHttpClient{
+    private fun getOkHttpClient(context: Context): OkHttpClient {
         return OkHttpClient.Builder().apply {
 
             connectTimeout(TIMEOUT, TimeUnit.SECONDS)
@@ -49,19 +51,18 @@ internal object ApiProvider {
 
             addInterceptor(CustomLoggingInterceptor())
             addInterceptor(ConnectivityInterceptor(context))
-            addInterceptor(AuthBearerTokenInterceptor(BuildConfig.TOKEN))
+            addInterceptor(AuthBearerTokenInterceptor())
             addInterceptor(loggingInterceptor)
         }.run {
             build()
         }
     }
+
     internal inline fun <reified T> getApi(context: Context): T = Retrofit.Builder().apply {
         baseUrl(BuildConfig.HOST)
         addConverterFactory(MoshiConverterFactory.create(moshi))
         client(getOkHttpClient(context))
-    }.let {
-        it.build()
-    }.run {
+    }.build().run {
         create()
     }
 }

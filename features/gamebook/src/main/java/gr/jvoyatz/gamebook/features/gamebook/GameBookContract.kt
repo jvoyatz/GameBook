@@ -2,12 +2,12 @@ package gr.jvoyatz.gamebook.features.gamebook
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
-import gr.jvoyatz.gamebook.components.bets.domain.models.EventsDataContainer
 import gr.jvoyatz.gamebook.features.gamebook.models.ui.GameBookUiModel
 import gr.jvoyatz.gamebook.libraries.mvvmi.PartialUiState
 import gr.jvoyatz.gamebook.libraries.mvvmi.UiEffect
 import gr.jvoyatz.gamebook.libraries.mvvmi.UiEvent
 import gr.jvoyatz.gamebook.libraries.mvvmi.UiState
+import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 
 object GameBookContract {
@@ -23,6 +23,7 @@ object GameBookContract {
      * Used to indicate an action that our viewmodel should execute
      */
     sealed interface Event: UiEvent {
+        object Authenticate: Event
         object Initialize: Event
         object Update: Event
     }
@@ -32,7 +33,8 @@ object GameBookContract {
      * Those data will be later passed to the uiState flow.
      */
     sealed interface Partial: PartialUiState {
-        data class Data(val data: EventsDataContainer): Partial{
+        object Initialize: Partial
+        data class Data(val data: List<GameBookUiModel>): Partial{
             var isInit: Boolean = false
         }
         object NoData: Partial
@@ -52,12 +54,14 @@ object GameBookContract {
      */
     @Parcelize
     sealed class GameBookUiState: Parcelable {
+        object Authenticate: GameBookUiState()
         object Initialize: GameBookUiState()
         object Update: GameBookUiState()
         object Loading : GameBookUiState()
         object Error : GameBookUiState()
         object NoData : GameBookUiState()
         data class Data(val uiModels: List<GameBookUiModel>) : GameBookUiState(){
+            @IgnoredOnParcel
             var isInit: Boolean = false
         }
     }

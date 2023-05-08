@@ -5,6 +5,8 @@ import gr.jvoyatz.gamebook.libraries.network.dto.games.GameDto
 import gr.jvoyatz.gamebook.libraries.network.dto.games.updated.UpdatedGamesItemDto
 import gr.jvoyatz.gamebook.libraries.network.dto.headlines.HeadlineDto
 import gr.jvoyatz.gamebook.libraries.network.dto.headlines.updated.UpdatedHeadlineHeadlineItemDto
+import gr.jvoyatz.gamebook.libraries.network.dto.token.AuthTokenRequest
+import gr.jvoyatz.gamebook.libraries.network.dto.token.AuthTokenResponse
 import gr.jvoyatz.gamebook.libraries.network.response.ApiResponse
 import gr.jvoyatz.gamebook.libraries.network.response.safeRawApiCall
 
@@ -18,6 +20,10 @@ import gr.jvoyatz.gamebook.libraries.network.response.safeRawApiCall
 internal class BetsRemoteDataSource(
     private val gameBookApi: GameBookApi
 ) {
+
+    suspend fun getToken(): ApiResponse<AuthTokenResponse, String> = safeRawApiCall {
+        gameBookApi.fetchToken(AuthTokenRequest("vogiatzis", "ioannis"))
+    }
     suspend fun getGames(): ApiResponse<List<GameDto>, String> = safeRawApiCall {
         gameBookApi.fetchGames()
     }

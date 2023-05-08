@@ -10,6 +10,10 @@ import gr.jvoyatz.gamebook.libraries.shared.resultdata.ResultData
 interface BetsRepository {
 
     /**
+     * fetches the auth token
+     */
+    suspend fun getToken(): ResultData<Unit>
+    /**
      * Get the initial bets
      */
     suspend fun getData(): ResultData<EventsDataContainer>

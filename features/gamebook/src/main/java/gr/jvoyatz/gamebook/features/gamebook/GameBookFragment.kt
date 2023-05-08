@@ -24,7 +24,6 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import timber.log.Timber
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -57,7 +56,7 @@ class GameBookFragment : Fragment() {
     }
 
     private fun setupRecyclerViews(){
-        val adapter = GameBookUiAdapter(handler, viewLifecycleOwner)
+        val adapter = GameBookUiAdapter(handler)
         binding.dataList.apply {
             this.adapter = adapter
         }
@@ -102,6 +101,7 @@ class GameBookFragment : Fragment() {
 
     private fun handleScreenState(state: GameBookUiState){
         when(state){
+            GameBookUiState.Authenticate -> viewModel.onNewEvent(GameBookContract.Event.Authenticate)
             GameBookUiState.Initialize -> viewModel.onNewEvent(GameBookContract.Event.Initialize)
             GameBookUiState.Update -> viewModel.onNewEvent(GameBookContract.Event.Update)
             GameBookUiState.Loading -> showLoadingState()
@@ -114,8 +114,8 @@ class GameBookFragment : Fragment() {
     //ui state methods
     private fun showLoadingState(){
         with(binding){
-            this.loaderView.showLoading()
             this.dataList.isVisible = false
+            this.loaderView.showLoading()
         }
     }
 
@@ -129,7 +129,6 @@ class GameBookFragment : Fragment() {
         }
         if(isInit){
             updatingJob = lifecycleScope.launch {
-                Timber.d("setting updating task")
                 delay(10_000)
                 viewModel.onNewEvent(GameBookContract.Event.Update)
             }

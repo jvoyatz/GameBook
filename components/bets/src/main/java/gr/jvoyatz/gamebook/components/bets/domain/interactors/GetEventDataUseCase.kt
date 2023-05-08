@@ -5,6 +5,6 @@ import gr.jvoyatz.gamebook.libraries.shared.resultdata.ResultData
 
 
 /**
- * Calls the methods which return the needed data from [BetsRepository]
+ * Calls the methods which return the needed data from BetsRepository
  */
-fun interface getEventDataUseCase: suspend (Boolean) -> ResultData<EventsDataContainer>
+fun interface GetEventDataUseCase: suspend (Boolean) -> ResultData<EventsDataContainer>

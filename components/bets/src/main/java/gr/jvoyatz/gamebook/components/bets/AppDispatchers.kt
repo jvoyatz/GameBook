@@ -1,8 +1,10 @@
-package gr.jvoyatz.gamebook.libraries.shared
+package gr.jvoyatz.gamebook.components.bets
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
+import javax.inject.Inject
 
+@Suppress("unused")
 interface AppDispatchers{
     val io: CoroutineDispatcher
         get() = Dispatchers.IO
@@ -16,3 +18,5 @@ interface AppDispatchers{
     val unconfined: CoroutineDispatcher
         get() = Dispatchers.Unconfined
 }
+
+class AppDispatchersImpl @Inject constructor(): AppDispatchers

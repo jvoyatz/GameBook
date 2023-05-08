@@ -9,5 +9,8 @@
     <string name="not_provided">Not provided</string>
     <string name="contentDescription">contentDescription</string>
     <string name="not_provided_description">Not provided description</string>
-
+    <string name="token_success">Fetched Token Successfully</string>
+    <string name="token_error">Could not fetch token</string>
+    <string name="update_success">Update happened successfully</string>
+    <string name="update_error">An error occurred during update</string>
 </resources>

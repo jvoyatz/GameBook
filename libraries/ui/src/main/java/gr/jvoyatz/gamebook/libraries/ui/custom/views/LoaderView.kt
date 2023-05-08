@@ -27,6 +27,7 @@ class LoaderView(
         )
         layoutParams = lp
 
+        showLoading()
         //fromTopAnimation()
     }
     override fun showLoading() {
@@ -64,4 +65,6 @@ class LoaderView(
             clickHandler()
         }
     }
+
+    fun isLoading() = binding.loading.isVisible
 }

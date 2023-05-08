@@ -1,6 +1,6 @@
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    id("gamebook.android.library")
+    id("gamebook.android.library.plus")
 }
 
 android {
