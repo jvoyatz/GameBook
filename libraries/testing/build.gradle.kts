@@ -12,4 +12,5 @@ dependencies {
     implementation(libs.bundles.test)
 
     implementation(libs.bundles.networking)
+    implementation(project(":libraries:utils-android"))
 }

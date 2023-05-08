@@ -1,4 +1,4 @@
-package gr.jvoyatz.gamebook.components.bets
+package gr.jvoyatz.gamebook.libraries.utils.android
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

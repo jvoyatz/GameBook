@@ -17,4 +17,8 @@ dependencies {
     implementation(project(":libraries:ui"))
     implementation(project(":components:bets"))
     implementation(project(":libraries:shared"))
+    implementation(project(":libraries:utils-android"))
+
+    //test
+    testImplementation(project(":libraries:testing"))
 }

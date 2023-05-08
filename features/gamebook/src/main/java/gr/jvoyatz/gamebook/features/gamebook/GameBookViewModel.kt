@@ -2,7 +2,6 @@ package gr.jvoyatz.gamebook.features.gamebook
 
 import androidx.lifecycle.SavedStateHandle
 import dagger.hilt.android.lifecycle.HiltViewModel
-import gr.jvoyatz.gamebook.components.bets.AppDispatchers
 import gr.jvoyatz.gamebook.components.bets.domain.interactors.GetAuthTokenUseCase
 import gr.jvoyatz.gamebook.components.bets.domain.interactors.GetEventDataUseCase
 import gr.jvoyatz.gamebook.features.gamebook.GameBookContract.GameBookUiState
@@ -13,6 +12,7 @@ import gr.jvoyatz.gamebook.libraries.shared.resultdata.onSuccess
 import gr.jvoyatz.gamebook.libraries.shared.resultdata.onSuspendedError
 import gr.jvoyatz.gamebook.libraries.shared.resultdata.onSuspendedSuccess
 import gr.jvoyatz.gamebook.libraries.ui.R
+import gr.jvoyatz.gamebook.libraries.utils.android.AppDispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
